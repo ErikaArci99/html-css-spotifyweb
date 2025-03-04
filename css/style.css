@@ -1,5 +1,38 @@
 *{
-    margin: 0;
-    padding: 0;
+    margin: 0px;
+    padding: 0px;
     box-sizing: border-box;
+}
+
+body{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+main{
+    height: calc(100vh - 75px);
+    background-color: #141922;
+    display: flex;
+}
+
+header{
+    position: sticky;
+    height: 75px;
+    background-color: #080B12;
+    top: 0;
+}
+
+footer{
+    height: 75px;
+    background-color: #282828;
+}
+
+#sidebar{
+    height: 100%;
+    width: 200px;
+    background-color: #000000;
+}
+
+#content{
+    width: calc(100% - 200px);
+    overflow-y: auto;
 }
