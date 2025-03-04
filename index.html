@@ -12,15 +12,15 @@
 </head>
 <body>
     <main>
-        <div id="sidebar">
-            <div class="sidebar-content">
+        <div class="sidebar">
+            <div>
                 <!-- logo -->
                 <img class="logo-big padding-15" src="./img/logo.svg" alt="logo">
                 <div class="margin-left-20">
                     <!-- contenuto sidebar -->
                     <div class="image-container">
                         <img class="sidebar-icons" src="./img/home.svg" alt="home">
-                        <span class="text-color-white font-size-12 centered-text">Home</span>
+                        <span class="text-color-grey font-size-12 centered-text">Home</span>
                     </div>
                     <div class="image-container margin-top-5">
                         <img class="sidebar-icons" src="./img/search.svg" alt="cerca">
@@ -31,12 +31,14 @@
                         <span class="text-color-grey font-size-12 centered-text-2">La tua libreria</span>
                     </div>
                     <!-- playlist -->
-                    <div class="margin-top-25">
+                    <div class="margin-top-25 position-relative">
                         <span class="text-color-white font-size-12 display-block">PLAYLIST</span>
-                        <div class="playlist margin-top-10">
-                            <span class="plus">+</span>
+                        <div class="display-flex align-items-center margin-top-10">
+                            <div class="playlist margin-right-5">
+                                <span class="plus">+</span>
+                            </div>
+                            <span class="text-color-grey">Crea Playlist</span>
                         </div>
-                        <span class="text-color-grey">Crea Playlist</span>
                         <span class="display-block text-color-grey font-size-12 margin-top-20">Nome Playlist</span>
                         <span class="display-block text-color-grey font-size-12 margin-top-20">Nome Playlist</span>
                         <span class="display-block text-color-grey font-size-12 margin-top-20">Nome Playlist</span>
@@ -46,6 +48,18 @@
                         <span class="display-block text-color-grey font-size-12 margin-top-20">Nome Playlist</span>
                     </div>
                 </div>
+            </div>
+            <!-- ultima parte sidebar -->
+            <div class="margin-left-20 margin-top-225 display-flex align-items-center">
+                <img class="width-7 margin-right-5" src="./img/download.svg" alt="download">
+                <span class="text-color-grey font-size-12">Installa app</span>
+            </div>
+            <div class="padding-15">
+                <hr class="grey-hr display-block">             
+            </div>
+            <div class="margin-left-20 align-items-center display-flex">
+                <img class="width-7 margin-right-5 background-color-grey border-radius-50" src="./img/profile.svg" alt="profile">
+                <span class="text-color-white font-size-12 ">Erika Arci</span>
             </div>
         </div>
         <div id="content">
@@ -63,3 +77,5 @@
     </footer>
 </body>
 </html>
+
+
