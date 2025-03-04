@@ -60,25 +60,52 @@ footer{
     display: inline-block; 
   }
   
-  .centered-text {
+.centered-text {
     position: absolute;
     top: 50%;
     left: 25%;
     transform: translate(-50%, -50%);
   }
 
-  .centered-text-2 {
+.centered-text-2 {
     position: absolute;
     top: 50%;
     left: 37%;
     transform: translate(-50%, -50%);
   }
 
+.playlist{
+    height: 30px;
+    width: 30px;
+    background-color: #A3A3A3;
+    position: relative;
+    display: inline-block;
+}
+
+.plus{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 30px;
+}
 
 /* utility */
 
 .display-inline-block{
     display: inline-block;
+}
+
+.display-block{
+    display: block;
+}
+
+.display-flex{
+    display: flex;
+}
+
+.align-items-center{
+    align-items: center;
 }
 
 /* padding */
@@ -105,6 +132,22 @@ footer{
 
 .margin-left-20{
     margin-left: 20px;
+}
+
+.margin-top-25{
+    margin-top: 25px;
+}
+
+.margin-top-10{
+    margin-top: 10px;
+}
+
+.margin-top-5{
+    margin-top: 5px;
+}
+
+.margin-top-20{
+    margin-top: 20px;
 }
 
 /* colori */
