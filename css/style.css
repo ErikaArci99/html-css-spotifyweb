@@ -91,6 +91,22 @@ footer{
     width: 95%;
 }
 
+.row{
+    display: flex;
+}
+
+.col{
+    width: calc(100% / 3);
+    height: calc(100vh / 4);
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.album{
+    width: 85%;
+    height: 70%;
+}
+
 /* utility */
 
 .display-inline-block{
@@ -235,4 +251,9 @@ footer{
     background-color: #808080;
 }
 
+/* text align */
+
+.text-align-ct{
+    text-align: center;
+}
 
