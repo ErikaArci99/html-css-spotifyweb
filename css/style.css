@@ -31,6 +31,8 @@ header{
 footer{
     height: 75px;
     background-color: #282828;
+    position: relative;
+    z-index: 1;
 }
 
 .sidebar{
@@ -105,6 +107,14 @@ footer{
 .album{
     width: 85%;
     height: 70%;
+}
+
+.footer-container{
+    width: 97%;
+}
+
+h3{
+    font-size: 15px;
 }
 
 /* utility */
