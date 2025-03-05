@@ -117,6 +117,10 @@ h3{
     font-size: 15px;
 }
 
+.f-image{
+    width: 80%;
+}
+
 /* utility */
 
 .display-inline-block{
@@ -152,9 +156,10 @@ h3{
     flex-direction: column;
 }
 
-.align-content-space-between{
+.justify-content-space-between{
     justify-content: space-between;
 }
+
 
 
 /* padding */
@@ -211,6 +216,14 @@ h3{
     margin-top: 80px;
 }
 
+.margin-left-30{
+    margin-left: 30px;
+}
+
+.margin-left-10{
+    margin-left: 10px;
+}
+
 /* colori */
 
 .text-color-white{
@@ -253,6 +266,10 @@ h3{
     font-size: 12px;
 }
 
+.font-size-10{
+    font-size: 10px;
+}
+
 /* width */
 
 .width-7{
@@ -267,6 +284,10 @@ h3{
     width: 85%;
 }
 
+.width-10{
+    width: 15%;
+}
+
 /* background color */
 
 .background-color-grey{
@@ -279,3 +300,8 @@ h3{
     text-align: center;
 }
 
+/* height */
+
+.height-100{
+    height: 100%;
+}
