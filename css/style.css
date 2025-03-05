@@ -118,7 +118,35 @@ h3{
 }
 
 .f-image{
-    width: 80%;
+    width: 100%;
+}
+
+.footer-hr{
+    width: 22px;
+    height: 5px;
+    color: white;
+    background-color: white;
+}
+
+.footer-hr-2{
+    width: 85px;
+    height: 5px;
+    color: #797979;
+    background-color: #797979;
+}
+
+.footer-hr-3{
+    width: 75px;
+    height: 5px;
+    color: white;
+    background-color: white;
+}
+
+.footer-hr-4{
+    width: 300px;
+    height: 5px;
+    color: #797979;
+    background-color: #797979;
 }
 
 /* utility */
@@ -158,6 +186,10 @@ h3{
 
 .justify-content-space-between{
     justify-content: space-between;
+}
+
+.align-content-center{
+    align-content: center;
 }
 
 
@@ -284,8 +316,12 @@ h3{
     width: 85%;
 }
 
-.width-10{
+.width-15{
     width: 15%;
+}
+
+.max-width-15{
+    max-width: 15%;
 }
 
 /* background color */
