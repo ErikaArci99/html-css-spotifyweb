@@ -96,7 +96,7 @@ footer{
 }
 
 .col{
-    width: calc(100% / 3);
+    width: calc(100% / 6);
     height: calc(100vh / 4);
     display: flex;
     flex-wrap: wrap;
@@ -197,6 +197,10 @@ footer{
     margin-top: 27vh;
 }
 
+.margin-top-90{
+    margin-top: 90px;
+}
+
 /* colori */
 
 .text-color-white{
@@ -243,6 +247,10 @@ footer{
 
 .width-60{
     width: 60%;
+}
+
+.width-85{
+    width: 85%;
 }
 
 /* background color */
