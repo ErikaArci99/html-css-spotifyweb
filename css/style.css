@@ -342,4 +342,50 @@ h3{
     height: 100%;
 }
 
+/* media query */
 
+@media screen and (max-width: 1200px){
+    .album{
+        height: 57%;
+    }
+
+    .width-60{
+        width: 70%;
+    }
+}
+
+@media screen and (max-width: 1000px){
+    
+    .width-60{
+        width: 80%;
+    }
+
+    .footer-hr{
+        width: 10px;
+        height: 5px;
+        color: white;
+        background-color: white;
+    }
+    
+    .footer-hr-2{
+        width: 70px;
+        height: 5px;
+        color: #797979;
+        background-color: #797979;
+    }
+    
+    .footer-hr-3{
+        width: 60px;
+        height: 5px;
+        color: white;
+        background-color: white;
+    }
+    
+    .footer-hr-4{
+        width: 250px;
+        height: 5px;
+        color: #797979;
+        background-color: #797979;
+    }
+
+}
