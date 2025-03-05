@@ -110,6 +110,21 @@ footer{
     display: inline-block; 
 }
 
+.justify-content-space-around{
+    justify-content: space-around;
+}
+
+.justify-content-center{
+    justify-content: center;
+}
+
+.justify-content-flex-end{
+    justify-content: flex-end;
+}
+
+.flex-direction-column{
+    flex-direction: column;
+}
 
 /* padding */
 
@@ -126,6 +141,8 @@ footer{
     padding-left: 35px;
     padding-right: 35px;
 }
+
+
 
 /* margini */
 
@@ -153,8 +170,8 @@ footer{
     margin-top: 20px;
 }
 
-.margin-top-225{
-    margin-top: 225px;
+.margin-top-27{
+    margin-top: 27vh;
 }
 
 /* colori */
@@ -201,8 +218,18 @@ footer{
     width: 7%;
 }
 
+.width-50{
+    width: 50%;
+}
+
 /* background color */
 
 .background-color-grey{
     background-color: #808080;
+}
+
+/* height */
+
+.height-40{
+    height: 40%;
 }
