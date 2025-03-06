@@ -95,13 +95,12 @@ footer{
 
 .row{
     display: flex;
+    flex-wrap: wrap;
 }
 
 .col{
     width: calc(100% / 6);
     height: calc(100vh / 4);
-    display: flex;
-    flex-wrap: wrap;
 }
 
 .album{
@@ -357,35 +356,132 @@ h3{
 @media screen and (max-width: 1000px){
     
     .width-60{
-        width: 80%;
+        width: 90%;
+    }
+
+    .menu{
+        flex-wrap: wrap;
+    }
+
+    .voci-menu{
+        width: calc(100% / 5);
     }
 
     .footer-hr{
         width: 10px;
-        height: 5px;
-        color: white;
-        background-color: white;
+        
     }
     
     .footer-hr-2{
         width: 70px;
-        height: 5px;
-        color: #797979;
-        background-color: #797979;
     }
     
     .footer-hr-3{
         width: 60px;
-        height: 5px;
-        color: white;
-        background-color: white;
     }
     
     .footer-hr-4{
         width: 250px;
-        height: 5px;
-        color: #797979;
-        background-color: #797979;
     }
 
+    .col{
+        width: calc(100% / 4);
+        height: calc(100vh / 4);
+    }
+
+    .cure {
+        margin-top: 20px;
+    }
+
+    .sinister{
+        margin-top: 20px;
+    }
+
+    .max-width-20{
+        max-width: 100%;
+    }
+
+    .scopri{
+        margin-top: 20px;
+    }
+}
+
+/* tablet */
+
+@media screen and (max-width: 870px){
+
+    .footer-hr{
+        width: 5px;
+        
+    }
+    
+    .footer-hr-2{
+        width: 60px;
+    }
+    
+    .footer-hr-3{
+        width: 50px;
+    }
+
+    .footer-hr-4{
+        width: 230px;
+    }
+}
+
+@media screen and (max-width: 793px){
+
+    .cuore{
+        display: block;
+        margin-left: 10px;
+    }
+
+    .folder{
+        display: block;
+        margin-top: 5px;
+    }
+
+    .f-image{
+        width: 30px;
+    }
+
+    .footer-hr-2{
+        width: 40px;
+    }
+}
+
+/* mobile small*/
+@media screen and (max-width: 710px){
+
+    .col{
+        width: calc(100% / 2);
+        height: calc(100vh / 4);
+    }
+
+    .voci-menu{
+        width: calc(100% / 3);
+    }
+
+    .generi{
+        margin-top: 20px;
+    }
+    
+    .nuove-uscite{
+        margin-top: 20px;
+    }
+
+    .footer-hr-4{
+        width: 200px;
+    }
+
+    .footer-hr-3{
+        margin-left: 10px;
+    }
+
+    .min-4{
+        margin-left: 10px;
+    }
+
+    .main-content{
+        width: 80%;
+    }
 }
