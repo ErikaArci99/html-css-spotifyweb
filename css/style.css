@@ -148,6 +148,10 @@ h3{
     background-color: #797979;
 }
 
+.logo-small{
+    display: none;
+}
+
 /* utility */
 
 .display-inline-block{
@@ -215,8 +219,8 @@ h3{
     margin-bottom: 10px;
 }
 
-.margin-right-5{
-    margin-right: 5px;
+.margin-right-15{
+    margin-right: 15px;
 }
 
 .margin-left-20{
@@ -253,6 +257,10 @@ h3{
 
 .margin-left-10{
     margin-left: 10px;
+}
+
+.margin-right-5{
+    margin-right: 5px;
 }
 
 /* colori */
@@ -483,5 +491,108 @@ h3{
 
     .main-content{
         width: 80%;
+    }
+}
+
+/* mobile extra small */
+
+@media screen and (max-width: 630px){
+
+    .footer-hr-4 {
+        width: 100px;
+    }
+
+    .main-content{
+        width: 90%;
+    }
+
+    .voci-menu{
+        width: calc(100% / 4);
+    }
+
+    .width-60 {
+        width: 100%;
+}
+
+    .generi{
+        margin-top: 0px;
+    }
+
+    .schermo{
+        
+        margin-left: 10px;
+    }
+
+    .volume{
+
+        margin-left: 10px;
+    }
+
+    .footer-hr{
+
+        margin-left: 10px;
+    }
+
+    .sidebar{
+
+        width: 8%;
+    }
+
+    .display-none{
+        display: none;
+    }
+
+    #content{
+        width: calc(100% - 50px);
+}
+
+    .logo-small{
+        width: 30px;
+        padding-left: 5px;
+        padding-top: 5px;
+        display: inline-block;
+    }
+
+
+    .sidebar-icons {
+        width: 65%;
+        margin-left: 5px;
+        margin-top: 5px;
+    }
+
+    .margin-left-20{
+        margin-left: 0px;
+    }
+
+
+    .padding-15 {
+        padding: 10px;
+    }
+
+    .profile{
+        width: 50%;
+        margin-left: 10px;
+    }
+    
+
+    .download{
+        width: 30%;
+        margin-left: 13px;
+    }
+
+    h3{
+        font-size: 13px;
+    }
+
+    .font-size-12{
+        font-size: 10px;
+    }
+
+    .album-name{
+        margin-left: 5px;
+    }
+
+    .f-icons{
+        margin-right: 10px;
     }
 }
